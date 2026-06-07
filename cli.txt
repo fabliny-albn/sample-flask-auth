@@ -1,0 +1,15 @@
+Banco de Dados
+criar usuário:
+
+# acessa 
+flask shell
+
+# cria objeto
+user = User(username="admin", password="123")
+
+# adiciona o objeto ao banco de dados
+db.session.add(user)
+db.session.commit()
+
+# sair
+exit
